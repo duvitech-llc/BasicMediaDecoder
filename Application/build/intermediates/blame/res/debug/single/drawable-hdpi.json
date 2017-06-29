@@ -1,18 +1,34 @@
 [
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_play_disabled.png",
-        "source": "D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_play_disabled.png"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_play_disabled.png",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_play_disabled.png"
     },
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tile.9.png",
-        "source": "D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/Application/src/main/res/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_play.png",
-        "source": "D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_play.png"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tile.9.png",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/drawable-hdpi/tile.9.png",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/Application/src/main/res/drawable-hdpi/tile.9.png"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_play.png",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/Application/src/main/res/drawable-hdpi/ic_action_play.png"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_play.png",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_play.png"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_play_disabled.png",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/Application/src/main/res/drawable-hdpi/ic_action_play_disabled.png"
     }
 ]

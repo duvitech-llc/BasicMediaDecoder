@@ -29,6 +29,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -40,10 +41,12 @@ import android.widget.TextView;
 import com.example.android.common.media.MediaCodecWrapper;
 
 import java.io.IOException;
+import java.nio.ByteBuffer;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 import static junit.framework.Assert.assertNotNull;
+import static junit.framework.Assert.assertTrue;
 
 /**
  * This activity uses a {@link android.view.TextureView} to render the frames of a video decoded using
@@ -144,7 +147,7 @@ public class MainActivity extends Activity {
                 mImgReader.setOnImageAvailableListener(mImageListener, mHandler);
 
                 mCodecWrapper = MediaCodecWrapper.fromVideoFormat(mExtractor.getTrackFormat(i),
-                        mReaderSurface);
+                      temp);
                 if (mCodecWrapper != null) {
                     mExtractor.selectTrack(i);
                     break;
@@ -209,15 +212,97 @@ public class MainActivity extends Activity {
         }
     }
 
+    /**
+     * <p>Read data from all planes of an Image into a contiguous unpadded, unpacked
+     * 1-D linear byte array, such that it can be write into disk, or accessed by
+     * software conveniently. It supports YUV_420_888/NV21/YV12 and JPEG input
+     * Image format.</p>
+     *
+     * <p>For YUV_420_888/NV21/YV12/Y8/Y16, it returns a byte array that contains
+     * the Y plane data first, followed by U(Cb), V(Cr) planes if there is any
+     * (xstride = width, ystride = height for chroma and luma components).</p>
+     *
+     * <p>For JPEG, it returns a 1-D byte array contains a complete JPEG image.</p>
+     */
+    public static byte[] getDataFromImage(Image image) {
+        assertNotNull("Invalid image:", image);
+        int format = image.getFormat();
+        int width = image.getWidth();
+        int height = image.getHeight();
+        int rowStride, pixelStride;
+        byte[] data = null;
+        // Read image data
+        Image.Plane[] planes = image.getPlanes();
+        assertTrue("Fail to get image planes", planes != null && planes.length > 0);
+        // Check image validity
+        //checkAndroidImageFormat(image);
+        ByteBuffer buffer = null;
+        // JPEG doesn't have pixelstride and rowstride, treat it as 1D buffer.
+        if (format == ImageFormat.JPEG) {
+            buffer = planes[0].getBuffer();
+            assertNotNull("Fail to get jpeg ByteBuffer", buffer);
+            data = new byte[buffer.capacity()];
+            buffer.get(data);
+            return data;
+        }
+        int offset = 0;
+        data = new byte[width * height * ImageFormat.getBitsPerPixel(format) / 8];
+        byte[] rowData = new byte[planes[0].getRowStride()];
+
+        Log.v(TAG, "get data from " + planes.length + " planes");
+
+        for (int i = 0; i < planes.length; i++) {
+            buffer = planes[i].getBuffer();
+            assertNotNull("Fail to get bytebuffer from plane", buffer);
+            rowStride = planes[i].getRowStride();
+            assertTrue("rowStride should be no less than width", rowStride >= width);
+            pixelStride = planes[i].getPixelStride();
+            assertTrue("pixel stride " + pixelStride + " is invalid", pixelStride > 0);
+
+            Log.v(TAG, "pixelStride " + pixelStride);
+            Log.v(TAG, "rowStride " + rowStride);
+            Log.v(TAG, "width " + width);
+            Log.v(TAG, "height " + height);
+
+            // For multi-planar yuv images, assuming yuv420 with 2x2 chroma subsampling.
+            int w = (i == 0) ? width : width / 2;
+            int h = (i == 0) ? height : height / 2;
+            assertTrue("rowStride " + rowStride + " should be >= width " + w , rowStride >= w);
+            for (int row = 0; row < h; row++) {
+                int bytesPerPixel = ImageFormat.getBitsPerPixel(format) / 8;
+                if (pixelStride == bytesPerPixel) {
+                    // Special case: optimized read of the entire row
+                    int length = w * bytesPerPixel;
+                    buffer.get(data, offset, length);
+                    // Advance buffer the remainder of the row stride
+                    buffer.position(buffer.position() + rowStride - length);
+                    offset += length;
+                } else {
+                    // Generic case: should work for any pixelStride but slower.
+                    // Use intermediate buffer to avoid read byte-by-byte from
+                    // DirectByteBuffer, which is very bad for performance
+                    buffer.get(rowData, 0, rowStride);
+                    for (int col = 0; col < w; col++) {
+                        data[offset++] = rowData[col * pixelStride];
+                    }
+                }
+            }
+
+            Log.v(TAG, "Finished reading data from plane " + i);
+        }
+        return data;
+    }
+
+
     private static class ImageListener implements ImageReader.OnImageAvailableListener {
         private final LinkedBlockingQueue<Image> mQueue =
                 new LinkedBlockingQueue<Image>();
         @Override
         public void onImageAvailable(ImageReader reader) {
-            Image img = reader.acquireLatestImage();
+            final Image img = reader.acquireLatestImage();
             if(img != null){
                 //YuvImage yuv = new YuvImage(img.getPlanes()[0].getBuffer().array(), img.getFormat(), img.getWidth(), img.getHeight(), null);
-                
+                //getDataFromImage(img);
                 img.close();
             }
 

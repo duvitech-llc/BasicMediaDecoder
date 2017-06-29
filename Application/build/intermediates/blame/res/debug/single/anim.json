@@ -1,42 +1,82 @@
 [
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/gvigelet/.android/build-cache/7715eb5b18ad26ab674863604381e603de52c84a/output/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/gvigelet/.android/build-cache/7715eb5b18ad26ab674863604381e603de52c84a/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/gvigelet/.android/build-cache/7715eb5b18ad26ab674863604381e603de52c84a/output/res/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/gvigelet/.android/build-cache/7715eb5b18ad26ab674863604381e603de52c84a/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/gvigelet/.android/build-cache/7715eb5b18ad26ab674863604381e603de52c84a/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/gvigelet/.android/build-cache/7715eb5b18ad26ab674863604381e603de52c84a/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/gvigelet/.android/build-cache/7715eb5b18ad26ab674863604381e603de52c84a/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/gvigelet/.android/build-cache/7715eb5b18ad26ab674863604381e603de52c84a/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/gvigelet/.android/build-cache/7715eb5b18ad26ab674863604381e603de52c84a/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/gvigelet/.android/build-cache/7715eb5b18ad26ab674863604381e603de52c84a/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\anim\\abc_popup_exit.xml"
     }
 ]

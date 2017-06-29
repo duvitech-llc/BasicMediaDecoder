@@ -1,10 +1,18 @@
 [
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/gvigelet/.android/build-cache/7715eb5b18ad26ab674863604381e603de52c84a/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/gvigelet/.android/build-cache/7715eb5b18ad26ab674863604381e603de52c84a/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/gvigelet/source/BasicMediaDecoder/C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]
