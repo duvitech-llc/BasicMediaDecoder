@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\raw\\vid_bigbuckbunny.mp4",
-        "source": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\raw\\vid_bigbuckbunny.mp4"
+        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\raw\\vid_bigbuckbunny.mp4",
+        "source": "D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\raw\\vid_bigbuckbunny.mp4"
     },
     {
-        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/raw/vid_bigbuckbunny.mp4",
-        "source": "/home/gvigelet/source/BasicMediaDecoder/Application/src/main/res/raw/vid_bigbuckbunny.mp4"
+        "merged": "D:\\home\\gvigelet\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\raw\\vid_bigbuckbunny.mp4",
+        "source": "D:\\home\\gvigelet\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\raw\\vid_bigbuckbunny.mp4"
+    },
+    {
+        "merged": "D:\\home\\gvigelet\\source\\BasicMediaDecoder\\D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\raw\\vid_bigbuckbunny.mp4",
+        "source": "D:\\home\\gvigelet\\source\\BasicMediaDecoder\\D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\raw\\vid_bigbuckbunny.mp4"
     }
 ]

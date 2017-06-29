@@ -1,7 +1,4 @@
-#Wed Jun 28 22:18:25 EDT 2017
-base.0=/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c03a6755096e770103b3cc9f4106a33f551ae709
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8bbe678b43fcd9be56e5a330ba7a0dacdb065e1c/classes.dex
-base.1=/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8bbe678b43fcd9be56e5a330ba7a0dacdb065e1c
-file.0=/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c03a6755096e770103b3cc9f4106a33f551ae709/classes.dex
+#Wed Jun 28 23:19:38 EDT 2017
+base.0=D\:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

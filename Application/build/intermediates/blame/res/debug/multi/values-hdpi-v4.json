@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "outputFile": "D:\\home\\gvigelet\\source\\BasicMediaDecoder\\D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "/home/gvigelet/source/BasicMediaDecoder/C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "file": "D:\\home\\gvigelet\\source\\BasicMediaDecoder\\C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -26,7 +26,7 @@
         ]
     },
     {
-        "outputFile": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+        "outputFile": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -38,7 +38,33 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "/home/gvigelet/.android/build-cache/7715eb5b18ad26ab674863604381e603de52c84a/output/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "file": "C:\\Users\\gvige\\.android\\build-cache\\ecab38a6ea457b96658f55c29bcc46543706eb86\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 13,
+                        "endOffset": 327
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\home\\gvigelet\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "D:\\home\\gvigelet\\.android\\build-cache\\7715eb5b18ad26ab674863604381e603de52c84a\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

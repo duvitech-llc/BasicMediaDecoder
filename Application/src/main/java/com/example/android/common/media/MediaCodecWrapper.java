@@ -27,6 +27,8 @@ import java.util.ArrayDeque;
 import java.util.Locale;
 import java.util.Queue;
 
+import static android.media.MediaCodec.VIDEO_SCALING_MODE_SCALE_TO_FIT;
+
 /**
  * Simplifies the MediaCodec interface by wrapping around the buffer processing operations.
  */
@@ -146,6 +148,7 @@ public class MediaCodecWrapper {
         if (mimeType.contains("video/")) {
             videoCodec = MediaCodec.createDecoderByType(mimeType);
             videoCodec.configure(trackFormat, surface, null,  0);
+            videoCodec.setVideoScalingMode(VIDEO_SCALING_MODE_SCALE_TO_FIT );
 
         }
 

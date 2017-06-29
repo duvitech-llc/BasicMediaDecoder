@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/home/gvigelet/source/BasicMediaDecoder/Application/build/intermediates/res/merged/debug/menu/action_menu.xml",
-        "source": "/home/gvigelet/source/BasicMediaDecoder/Application/src/main/res/menu/action_menu.xml"
+        "merged": "D:\\home\\gvigelet\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\action_menu.xml",
+        "source": "D:\\home\\gvigelet\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\menu\\action_menu.xml"
     },
     {
-        "merged": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\action_menu.xml",
-        "source": "/home/gvigelet/source/BasicMediaDecoder/D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\menu\\action_menu.xml"
+        "merged": "D:\\home\\gvigelet\\source\\BasicMediaDecoder\\D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\action_menu.xml",
+        "source": "D:\\home\\gvigelet\\source\\BasicMediaDecoder\\D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\menu\\action_menu.xml"
+    },
+    {
+        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\action_menu.xml",
+        "source": "D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\menu\\action_menu.xml"
     }
 ]
