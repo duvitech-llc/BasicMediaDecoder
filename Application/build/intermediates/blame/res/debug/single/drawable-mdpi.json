@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_play.png",
+        "source": "D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\drawable-mdpi\\ic_action_play.png"
+    },
+    {
+        "merged": "D:\\source\\BasicMediaDecoder\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_play_disabled.png",
+        "source": "D:\\source\\BasicMediaDecoder\\Application\\src\\main\\res\\drawable-mdpi\\ic_action_play_disabled.png"
+    }
+]
